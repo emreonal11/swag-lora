@@ -2,14 +2,8 @@
 
 This repo contains the implementation for the paper ["Gaussian Stochastic Weight Averaging for Bayesian Low-Rank Adaptation of Large Language Models"](https://arxiv.org/abs/2405.03425). Please refer to the paper for a detailed description of our approach and experimental information. 
 
-## Installation
-```
-pip install -r requirements.txt (??)
-source sc_venv_template/activate.sh # activate environment
-```
-
 ## Running experiments
-We use Accelerate and Hydra to run our experiments.
+We use Accelerate and Hydra to run our experiments. Please see instructions [here](./sc_venv_template/readme.md) for guidance in setting up the environment.
 
 ### Running training script
 
